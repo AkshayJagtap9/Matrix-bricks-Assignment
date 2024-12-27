@@ -1,0 +1,486 @@
+.header1{
+    height: 18px;
+    background-color: rgb(247, 150, 81);
+    text-align: center;
+}
+
+.firstHeader{
+    color: white;
+    padding: 3px;
+
+}
+
+/* header css */
+.header-logo {
+    max-width: 150px;
+    height: auto;
+}
+a:hover {
+    color: #ff6600; /* Highlight color on hover */
+}
+
+
+/*  */
+
+.hr1{
+    color: #b15416;
+    height:2px;
+    border-width:3px;
+}
+
+/* Below header part */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+.menu-item {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.menu-item:hover, 
+.menu-item.active {
+    color: #ff6600;
+}
+
+
+/* Three image structor */
+
+
+/* Main banner start */
+.main-banner {
+    /* background-color: #f0f8ff; */
+    background-color:rgb(179, 237, 179);
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%; /* Ensures it takes the full height of the row */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    position: relative;
+}
+.discount-badge {
+    background-color: #ffcc00;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.banner-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.banner-text h2 {
+    font-size: 1.5rem;
+    color: #27ae60;
+}
+.banner-text p {
+    color: #555;
+    margin: 15px 0;
+}
+.shop-btn {
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+.shop-btn:hover {
+    background-color: #e55d00;
+}
+.product-image {
+    max-height: 2000px;
+    max-width: 2000px;
+
+    margin-left: -49%;
+}
+
+/* Main banner end */
+
+
+
+
+
+.side-banner {
+    background-color: #f8faff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    height: 50%; /* Each banner takes half the right column */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.side-banner img {
+    max-width: 100%;
+    height: auto;
+}
+.side-banner h3 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+.side-banner a {
+    color: #ff6600;
+    font-weight: bold;
+    text-decoration: none;
+}
+.side-banner a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ABOVE FOOTER */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: Arial, sans-serif;
+    color: #333;
+} */
+
+
+/* Carousal part CSS */
+
+
+/* Add styles inline for the exact layout */
+.carousel-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: none;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bg-orange {
+    background: linear-gradient(to right, #FF7F50, #FFA07A);
+}
+
+.bg-green {
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+}
+
+.bg-blue {
+    background: linear-gradient(to right, #2196F3, #64B5F6);
+}
+
+.bg-pink {
+    background: linear-gradient(to right, #E91E63, #F48FB1);
+}
+
+.card h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+/* Custom arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    left: -15px;
+    top: 40%;
+}
+
+.carousel-control-next {
+    position: absolute;
+    right: -15px;
+    top: 40%;
+}
+
+/* End of Carousal part */
+
+
+
+
+
+
+
+.header-section {
+    color: #333;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+    font-size: 28px;
+    /* margin-bottom: 10px; */
+    color: black;
+}
+
+.stat-card p {
+    font-size: 18px;
+    color: #666;
+}
+
+/*  footer   GET THE LINK*/  
+
+.getTheLinkTitle{
+    padding-left: 169px;        
+}
+
+
+/* Middle part of WEBSITES */
+/* Old order css */
+/* 
+.feature-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature-card i {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+.steps div {
+    text-align: center;
+}
+.steps div span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+} */
+
+
+/* new order css */
+
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.steps div {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    text-align: left;
+}
+
+.steps div span {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White text color */
+    margin-right: 15px; /* Space between the circle and content */
+    width: 40px; /* Width of the circle */
+    height: 40px; /* Height of the circle */
+    border-radius: 50%; /* Makes the span a circle */
+    text-align: center;
+    line-height: 40px; /* Vertically center the number */
+    margin-bottom: 10px; /* Space between number and content */
+}
+
+/* Different colors for each step */
+.steps div:nth-child(1) span {
+    background-color: rgba(241, 165, 151, 0.8); /* Tomato */
+}
+
+.steps div:nth-child(2) span {
+    background-color: rgba(132, 195, 243, 0.8); /* Orange */
+}
+
+.steps div:nth-child(3) span {
+    background-color: rgba(153, 242, 168, 0.8); /* Turquoise */
+}
+
+.steps div:nth-child(4) span {
+    background-color: rgba(231, 160, 243, 0.8); /* Light Sea Green */
+}
+
+.steps div .step-content {
+    display: flex;
+    flex-direction: column; /* Stack header and paragraph vertically */
+    text-align: left;
+}
+
+.steps div h3 {
+    margin: 0;
+    padding-bottom: 5px; /* Optional space between header and paragraph */
+}
+
+.steps div p {
+    margin: 0;
+}
+
+
+
+/*  New covid banner */
+/*
+.banner {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #e9ecef;
+}
+
+*/
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 230px; /* Adjust the height as needed */
+}
+
+.content {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px;
+    color: black;
+    z-index: 1; /* Ensure content is on top of the image */
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 10;
+    left: 0;
+    z-index: 0; /* Places the image behind the content */
+}
+
+/* banner end */
+
+.products .card {
+    border: none;
+    text-align: center;
+    position: relative;
+}
+.products .card img {
+    height: 150px;
+    object-fit: contain;
+}
+.discount {
+    color: red;
+    font-weight: bold;
+}
+.add-to-cart {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.add-to-cart:hover {
+    background-color: #333;
+    color: #fff;
+}
+  .new-badge {
+position: absolute;
+top: 15px;
+right: 15px;
+background-color: #28a745;
+color: white;
+padding: 2px 6px;
+font-size: 0.75rem;
+border-radius: 3px;
+font-weight: bold;
+}
+
+
+
+
+
+/* Last footer */
+
+.ftrFont{
+    font-size: 10px;
+    font-weight: bold;
+    color: #8e8b8b;
+}
+
+.footerL{
+    height: 30px;
+    background-color: rgb(247, 150, 81);
+    text-align: center;
+}
